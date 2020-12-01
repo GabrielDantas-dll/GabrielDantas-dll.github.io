@@ -1,0 +1,45 @@
+HOME:
+*Pensando em fazer essa parte em conteiner, para deixar mais arrumado
+Gabriel Dantas de Oliveira Leite, 19 anos (maiúsculo)
+gabrieldol@yahoo.com.br (outra cor)
+(11) 995474478
+Travessa Andrés de Cretã, Vila Nova York 03480065, São Paulo
+
+Estudante de Análise e desenvolvimento de sistemas
+- Á procura de primeiras experiências profissionais na área da tecnologia
+
+<p class="info2 info home-texto">Comecei no mundo da tecnologia e programação sendo autodidata, aprendendo o básico em tecnologias como HTML, CSS, javaScript e Python. No ano de 2020 iniciei meus estudos na Universidade São Judas com o intuíto de me aprofundar não apenas nas linguagens já conhecidas como entrar em contato com novas tecnologias.</p>
+
+-------------------------
+
+ESCOLARIDADE:
+
+Universidade São Judas Tadeu
+Análise e Desenvolvimento de Sistemas – 2º Semestre.
+
+Ensino Médio: Colégio Marista Nossa Senhora da Glória (2018)
+
+Representante do colégio em coferências regionais da instituição.
+Monitor em projetos socias em torno do colégio
+
+
+-------------------
+
+
+O QUE EU SEI:
+
+Projetos pessoais em:
+• Desenvolvimento Web (HTML e CSS)
+• Wordpress
+• Angular 9
+• Java Script
+• Java
+• AndroidStudio
+• Python
+• Editores de imagem e vídeo
+
+Nível de inglês: Intermediário.
+
+------------------
+
+Links para github, linkedIn, fb, email, número etc
