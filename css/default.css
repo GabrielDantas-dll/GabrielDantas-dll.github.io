@@ -60,8 +60,10 @@ table {
 header {
     height: 100vh;
     width: 260px;
-	background-color: #111418;
-	position: fixed;
+    background-color: #111418;
+    position: fixed;
+    box-shadow: -23px 15px 53px #ffffff;
+    z-index: 5;
 }
 
 .top-menu {
@@ -104,7 +106,7 @@ header {
 }
 
 .list-menu a:hover {
-	color: #17a2b8;
+	color: #ffab00d4;
 	transition: ease .3s color;
 }
 
@@ -113,7 +115,7 @@ header {
 }
 
 .selected {
-	color: #17a2b8;
+	color: #ffab00d4;
 }
 
 .bottom-menu {
@@ -125,7 +127,7 @@ header {
     width: 100%;
 }
 
-social media aqui
+/* social media aqui */
 
 .social-media a {
   	height: 32px;
@@ -133,21 +135,24 @@ social media aqui
 }
 
 .container {
-	background-color: black;
-	height:100vh;
-	margin-left: 260px;
+	background: url('../img/teste.png') repeat #db9300d4;
+    height: 100vh;
+    margin-left: 260px;
+    position: relative;
 }
 
 .home {
-	background-color: #41899c;
-	width: 800px;
-	height: 500px;
-	position: absolute;
-	top: 25%;
-	left: 38%;
-	margin-top: -100px;
-	margin-left: -100px;
-	border-radius: 20px;
+    background-color: #ffffff;
+    width: 85%;
+    max-width: 1240px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    padding: 110px 25px 110px 25px;
+    box-shadow: 9px 0px 0px 0px #000;
+    border: 3px solid #000;
 }
 
 .home p {
