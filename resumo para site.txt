@@ -8,7 +8,10 @@ Travessa Andrés de Cretã, Vila Nova York 03480065, São Paulo
 Estudante de Análise e desenvolvimento de sistemas
 - Á procura de primeiras experiências profissionais na área da tecnologia
 
-<p class="info2 info home-texto">Comecei no mundo da tecnologia e programação sendo autodidata, aprendendo o básico em tecnologias como HTML, CSS, javaScript e Python. No ano de 2020 iniciei meus estudos na Universidade São Judas com o intuíto de me aprofundar não apenas nas linguagens já conhecidas como entrar em contato com novas tecnologias.</p>
+Sou Gabriel Dantas de Oliveira Leite, tenho 19 anos e sou estudante de Análise e Desenvolvimento de Sistemas pela Universidade São Judas.
+
+Comecei no mundo da tecnologia em 2018, desenvolvendo sites e projetos pessoas simples utilizando HTML, CSS, javaScript e Python.  No ano de 2020, já na faculdade desenvolvi um software integrando Java e MySQL que foi exposto na Expo São Judas.   Além disso tive contato com novas tecnologias como Angular 9, Firebase e Android, integrando-os e produzindo projetos mais complexos.
+
 
 -------------------------
 

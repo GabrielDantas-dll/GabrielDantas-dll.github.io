@@ -127,15 +127,13 @@ header {
     width: 100%;
 }
 
-/* social media aqui */
-
 .social-media a {
   	height: 32px;
   	width: 32px;
 }
 
 .container {
-	background: url('../img/teste.png') repeat #db9300d4;
+	background-color: #db9300d4;
     height: 100vh;
     margin-left: 260px;
     position: relative;
@@ -150,7 +148,7 @@ header {
     left: 50%;
     border-radius: 10px;
     transform: translateX(-50%);
-    padding: 110px 25px 110px 25px;
+    padding: 40px px 40px 25px;
     box-shadow: 9px 0px 0px 0px #000;
     border: 3px solid #000;
 }
@@ -174,7 +172,8 @@ header {
 }
 
 .info2 {
-	margin-top: 80px;
+	margin-top: 70px;
+	padding-bottom: 50px;
 }
 
 .home-bem-vindo {
@@ -198,5 +197,58 @@ header {
 	display: block;
 }
 
+.marista {
+	background-color: red;
+	width: 50%;
+}
+
+/*fim do escolaridade*/
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.card {
+	background-color: #fff;
+    border-radius: 10px;
+	box-shadow: 0px 2px 23px #2b1f6f;
+	width: 400px;
+}
+
+p.second-text {
+    padding-top: 10px;
+}
+
+.media-card { 
+	background: url("https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/5/d/2/c/5d2c5e38f33c2727797b2ee7911668b3.jpg") center/cover;
+	height: 300px;
+	width: 100%;
+}
+
+.top-card {
+	padding: 20px;
+	padding-top: 0px;
+    margin-top: 20px;
+}
+
+.bottom-card {
+	padding: 20px;
+}
+
+h2.title {
+    font-size: 28px;
+    color: #1c078c;
+}
+
+.media-card-pong {
+	background: url("https://s2.glbimg.com/kvTwEVHf2rM0uC30xl2bHY-2zBA=/695x0/s.glbimg.com/po/tt2/f/original/2016/03/02/pong.jpg") center/cover;
+	height: 300px;
+	width: 100%;
+}
 
 
