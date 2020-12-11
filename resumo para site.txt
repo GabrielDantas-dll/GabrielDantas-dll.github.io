@@ -46,3 +46,13 @@ Nível de inglês: Intermediário.
 ------------------
 
 Links para github, linkedIn, fb, email, número etc
+
+.content{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+	height: 100vh;
+}
+
