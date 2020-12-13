@@ -135,7 +135,7 @@ header {
 .container {
 	background-color: #db9300d4;
     height: 100vh;
-    margin-left: 260px;
+	margin-left: 260px;
     position: relative;
 }
 
@@ -195,6 +195,7 @@ header {
 
 .container .show {
 	display: block;
+	height: 525px;
 }
 
 .marista {
@@ -252,25 +253,75 @@ h2.title {
 	width: 100%;
 }
 
-/*Página contato */
-
-.img-rede {
-	background: url("https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF") center/cover; 
-	width: 90px;
-	height: 100px;
+.media-card-contador {
+	background: url("C:\Users\Dantas\Desktop\GabrielDantas-dll.github.io\Contador.jpeg") center/cover;
+	height: 300px;
+	width: 100%;
 }
 
-.bloco-rede {
-	width: 300px;
-	height: 150px;
-	display: flex;
-	align-items: center;
-	margin: 20px;
-	margin-top: 0px;
+/*Página contato*/
+
+.container-contato {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 0 5px;
+	overflow: hidden;
+	background: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	transition: all 0.3s ease-out;
+	margin: 10px;
 }
 
-.texto-rede {
-	background-color: red;
+.wrapper {
+	width: 60px;
+	height: 80px;
+	padding-top: 80px;
+	margin-left: 20px;
+}
+
+.wrapper .container-contato:hover{
 	width: 200px;
-	height: 100px;
 }
+
+.wrapper .button .icon {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	border-radius: 50px;
+	line-height: 60px;
+	transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+hover .icon{background: #0e76a8;}
+
+.wrapper .button:nth-child(2)
+hover .icon{background: #171515;}
+
+.wrapper .button:nth-child(3)
+hover .icon{background: #34af23;}
+
+.wrapper .button:nth-child(4)
+hover .icon{background: #720e9e;}
+
+.wrapper .button .icon i {
+	font-size: 25px;
+	line-height: 60px;
+	transition: all 0.3s ease-out;
+}
+
+.wrapped .button:nth-child(1)
+	span{color:#0e76a8;}
+
+.wrapper .button:nth-child(2)
+	span{color:   #171515;}
+
+.wrapper .button:nth-child(3)
+	span{color:  #34af23;}
+
+.wrapper .button:nth-child(4)
+	span{color:  #720e9e;}
