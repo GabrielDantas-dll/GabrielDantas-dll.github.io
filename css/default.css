@@ -226,8 +226,19 @@ header {
 	margin-bottom: 10px;
 }
 
-.p-marista {
-	
+.conteudo-marista {
+	display: inline;
+}
+
+.ano-marista {
+	float: right;
+	font-size: 32px;
+	margin: 15px;
+	margin-top: 40px;
+}
+
+.info-marista {
+	padding: 5px;
 }
 
 /*portifolio*/
@@ -294,6 +305,10 @@ h2.title {
 
 /*Página contato*/
 
+.contato {
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 47%);
+}
+
 .container-contato {
 	display: inline-block;
 	height: 60px;
@@ -306,17 +321,18 @@ h2.title {
 	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 	transition: all 0.3s ease-out;
 	margin: 10px;
+	margin-left: 420px;
 }
 
 .wrapper {
+	
 	width: 60px;
 	height: 80px;
 	padding-top: 80px;
-	margin-left: 20px;
 }
 
 .wrapper .container-contato:hover{
-	width: 200px;
+	width: 250px;
 }
 
 .wrapper .button .icon {
@@ -330,16 +346,16 @@ h2.title {
 }
 
 .wrapper .button:nth-child(1)
-hover .icon{background: #0e76a8;}
+hover.icon{background: #0e76a8;}
 
 .wrapper .button:nth-child(2)
-hover .icon{background: #171515;}
+hover.icon{background: #171515;}
 
 .wrapper .button:nth-child(3)
-hover .icon{background: #34af23;}
+hover.icon{background: #34af23;}
 
 .wrapper .button:nth-child(4)
-hover .icon{background: #720e9e;}
+hover.icon{background: #720e9e;}
 
 .wrapper .button .icon i {
 	font-size: 25px;
@@ -364,3 +380,16 @@ hover .icon{background: #720e9e;}
 	display: grid;
 
 }
+
+.span-wpp {
+	color: black;
+}
+
+.contato {
+	box-shadow: 8px 8px #fff;
+}
+
+.home > h1 {
+	color: white;
+}
+
