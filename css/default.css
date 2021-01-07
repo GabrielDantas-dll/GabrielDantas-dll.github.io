@@ -141,7 +141,8 @@ header {
 
 .home {
     background-color: #ffffff;
-    width: 85%;
+	width: 85%;
+	height: auto;
     max-width: 1240px;
     position: absolute;
     top: 10%;
@@ -159,8 +160,8 @@ header {
 
 .info {
 	font-family: 'Open Sans', sans-serif;
+	font-size: clamp(0.5em, 1em + 3vw, 1.5em);
 	text-align: center;
-	font-size: 24px;
 	text-indent: 30px;
 	line-height: 30px;
 	align-items: center;
@@ -306,7 +307,10 @@ h2.title {
 /*Página contato*/
 
 .contato {
-	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 47%);
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #e73c3c, #23A6D5, #23D5AB);
+	position: relative;
+	animation: change 10s ease-in-out infinite;
 }
 
 .container-contato {
@@ -324,11 +328,22 @@ h2.title {
 	margin-left: 420px;
 }
 
+.h1-contato {
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 3px solid #fff;
+	position: absolute;
+	padding: 1rem 2rem;
+	top: 5%;
+	left: 25%;
+}
+
 .wrapper {
-	
-	width: 60px;
+	width: 70px;
 	height: 80px;
-	padding-top: 80px;
+	padding-top: 110px;
 }
 
 .wrapper .container-contato:hover{
@@ -386,10 +401,21 @@ hover.icon{background: #720e9e;}
 }
 
 .contato {
-	box-shadow: 8px 8px #fff;
+	box-shadow: 8px 8px black;
 }
 
 .home > h1 {
 	color: white;
 }
 
+@keyframes change{
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
