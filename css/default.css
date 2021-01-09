@@ -88,6 +88,7 @@ header {
 	text-align: center;
 	margin-top: 15px;
 	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .list-menu {
@@ -201,6 +202,10 @@ header {
 
 /*Escolaridade*/
 
+.escolaridade {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .content-escolaridade {
 	display: flex;
 	padding: 10px;
@@ -211,11 +216,13 @@ header {
 	width: 500px;
 	border-right: 2px solid rgba(0,0,0,0.5);
 	padding: 10px;
+	line-height: 18px;
 }
 
 .sjudas {
 	width: 500px;
 	padding: 10px;
+	line-height: 20px;
 }
 
 .foto-marista {
@@ -238,8 +245,8 @@ header {
 	margin-top: 40px;
 }
 
-.info-marista {
-	padding: 5px;
+.escolaridade li {
+	color: black;
 }
 
 /*portifolio*/
@@ -251,6 +258,7 @@ header {
 	padding-top: 20px;
 	padding-left: 45px;
 	padding-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .card {
@@ -310,7 +318,7 @@ h2.title {
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #e73c3c, #23A6D5, #23D5AB);
 	position: relative;
-	animation: change 10s ease-in-out infinite;
+	animation: change 6s ease-in-out infinite;
 }
 
 .container-contato {
@@ -409,13 +417,13 @@ hover.icon{background: #720e9e;}
 }
 
 @keyframes change{
-	0% {
+	0%{
 		background-position: 0 50%;
 	}
-	50% {
+	50%{
 		background-position: 100 50%;
 	}
-	100% {
+	100%{
 		background-position: 0 50%;
 	}
 }

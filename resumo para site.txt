@@ -18,12 +18,16 @@ Comecei no mundo da tecnologia em 2018, desenvolvendo sites e projetos pessoas s
 ESCOLARIDADE:
 
 Universidade São Judas Tadeu
-Análise e Desenvolvimento de Sistemas – 2º Semestre.
+Análise e Desenvolvimento de Sistemas – 3º Semestre.
 
-Ensino Médio: Colégio Marista Nossa Senhora da Glória (2018)
+<p class="ano-marista">(2007-2018)</p>
+	<p class="p-marista">Terminei o Ensino Médio no Colégio Marista Nossa Senhora da Glória no ano de 2018 e digo que tive uma excelente base para a vida: 
+	<p class="info-marista">- Durante minha jornada tive a oportinudade de participar da pastoral juvenil do Colégio, ajudando instituições de caridade nas regiões próximas;</p> <br/>
+	<p class="info-marista">- Classificado duas vezes para a segunda fase da Olímpiada Brasileira de Matemática (OBM);</p> <br/>
+	<p class="info-marista">- Representante do meu Colégio no Congresso Estudantil Marista em Brasília; </p> <br/>
+	<p class="info-marista">- Campeão da série Prata de basquete na Olímpiada Marista 2017. (OLIMAR)</p>
 
-Representante do colégio em coferências regionais da instituição.
-Monitor em projetos socias em torno do colégio
+	Colégio Marista Nossa Senhora da Glória
 
 
 -------------------
@@ -44,15 +48,3 @@ Projetos pessoais em:
 Nível de inglês: Intermediário.
 
 ------------------
-
-Links para github, linkedIn, fb, email, número etc
-
-.content{
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	width: 100%;
-	height: 100vh;
-}
-
