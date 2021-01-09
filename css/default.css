@@ -136,21 +136,22 @@ header {
 .container {
 	background-color: #db9300d4;
     height: 100vh;
-	margin-left: 260px;
-    position: relative;
+	width: calc(100% - 260px);
+	position: fixed;
+	right: 0;
 }
 
 .home {
     background-color: #ffffff;
 	width: 85%;
-	height: auto;
+	height: 525px;
     max-width: 1240px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 50%;
+	margin: 0 auto;
+	transform: translateY(-50%);
     border-radius: 10px;
-    transform: translateX(-50%);
-    padding: 40px px 40px 25px;
+	position: relative;
+	overflow: auto;
     box-shadow: 8px 8px #000;
     border: 3px solid #000;
 }
@@ -197,7 +198,7 @@ header {
 
 .container .show {
 	display: block;
-	height: 525px;
+	min-height: 525px;
 }
 
 /*Escolaridade*/
@@ -416,7 +417,7 @@ hover.icon{background: #720e9e;}
 	color: white;
 }
 
-@keyframes change{
+@keyframes change {
 	0%{
 		background-position: 0 50%;
 	}
@@ -425,5 +426,83 @@ hover.icon{background: #720e9e;}
 	}
 	100%{
 		background-position: 0 50%;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	header {
+		width: 200px;
+	}
+
+	.container {
+		width: calc(100% - 200px);
+	}
+
+	.home p {
+		font-size: 17px;
+	}
+
+	.home {
+		padding: 0px 15px 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		height: auto;
+		width: 100vw;
+	}
+
+	.top-menu {
+		height: 95px;
+		width: 240px;
+		float: left;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.img-menu {
+		width: 60px;
+		height: 60px;
+		border-width: 3px;
+	}
+
+	.name-menu {
+		width: auto;
+		margin-top: 0;
+	}
+
+	.header-nav {
+		width: calc(100% - 240px);
+		float: left;
+		margin-top: 40px;
+	}
+
+	.list-menu {
+		flex-flow: row;
+		justify-content: space-around;	
+	}
+
+	.container {
+		width: 100%;
+		padding-top: 90px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.img-menu {
+		display: none;
+	}
+
+	.top-menu{
+		width: 95px;
+	} 
+
+	.header-nav {
+		width: calc(100% - 95px);
+	}
+
+	.name-menu {
+		font-size: 15px;
 	}
 }

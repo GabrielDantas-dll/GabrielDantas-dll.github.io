@@ -16,10 +16,10 @@ $(document).ready(function(){
           0:{
               items:1
           },
-          600:{
-              items:3
+          1206:{
+            items: 1
           },
-          1000:{
+          1210:{
               items:2
           }
       }
