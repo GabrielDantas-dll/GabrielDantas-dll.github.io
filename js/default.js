@@ -3,7 +3,7 @@ $(document).ready(function(){
       $('.list-menu a').removeClass('selected');
       $(this).addClass('selected');
       let area = $(this).data('area');
-      $('.home').removeClass('show');
+      $('.section').removeClass('show');
       $('.' + area).addClass('show');
    });
 

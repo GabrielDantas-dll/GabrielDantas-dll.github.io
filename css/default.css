@@ -1,62 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-*, ::after, ::before{
-	box-sizing: border-box;
-}
-
-p, a, li {
-	color: #fff;
-	text-decoration: none;
-}
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 header {
     height: 100vh;
     width: 260px;
@@ -141,7 +82,7 @@ header {
 	right: 0;
 }
 
-.home {
+.section {
     background-color: #ffffff;
 	width: 85%;
 	height: 525px;
@@ -156,7 +97,7 @@ header {
     border: 3px solid #000;
 }
 
-.home p {
+.section p {
 	color: black;
 }
 
@@ -210,24 +151,18 @@ header {
 .content-escolaridade {
 	display: flex;
 	padding: 10px;
-	height: 518px;
+	justify-content: space-around;
+	flex-flow: row wrap;
 }
 
-.marista {
+.instituicao {
 	width: 500px;
-	height: 90vh;
-	border-right: 2px solid rgba(0,0,0,0.5);
+	margin-bottom: 45px;
 	padding: 10px;
 	line-height: 18px;
 }
 
-.sjudas {
-	width: 500px;
-	padding: 10px;
-	line-height: 20px;
-}
-
-.foto-marista {
+.foto-instituicao {
 	width: 190px;
 	height: 185px;
 	border-radius: 50%;
@@ -236,11 +171,11 @@ header {
 	margin-bottom: 10px;
 }
 
-.conteudo-marista {
+.conteudo-instituicao {
 	display: inline;
 }
 
-.ano-marista {
+.ano-instituicao {
 	float: right;
 	font-size: 32px;
 	margin: 15px;
@@ -320,7 +255,6 @@ h2.title {
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #e73c3c, #23A6D5, #23D5AB);
 	position: relative;
-	animation: change 6s ease-in-out infinite;
 }
 
 .container-contato {
@@ -365,20 +299,12 @@ h2.title {
 	text-align: center;
 	border-radius: 50px;
 	line-height: 60px;
-	transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1)
-hover.icon{background: #0e76a8;}
-
-.wrapper .button:nth-child(2)
-hover.icon{background: #171515;}
-
-.wrapper .button:nth-child(3)
-hover.icon{background: #34af23;}
-
-.wrapper .button:nth-child(4)
-hover.icon{background: #720e9e;}
+.container-contato:hover .linkedin{background: #0e76a8;}
+.container-contato:hover .github{background: #323131;}
+.container-contato:hover .whatsapp{background: #34af23;}
+.container-contato:hover .yahoo{background: #720e9e;}
 
 .wrapper .button .icon i {
 	font-size: 25px;
@@ -386,23 +312,10 @@ hover.icon{background: #720e9e;}
 	transition: all 0.3s ease-out;
 }
 
-.wrapped .button:nth-child(1)
-	span{color:#0e76a8;}
-
-.wrapper .button:nth-child(2)
-	span{color:   #171515;}
-
-.wrapper .button:nth-child(3)
-	span{color:  #34af23;}
-
-.wrapper .button:nth-child(4)
-	span{color:  #720e9e;}
-
-.logos {
-	float: right;
-	display: grid;
-
-}
+.container-contato:hover .span-linkedin{color: #0e76a8;}
+.container-contato:hover .span-github{color: #323131;}
+.container-contato:hover .span-whatsapp{color: #34af23;}
+.container-contato:hover .span-yahoo{color: #720e9e;}
 
 .span-wpp {
 	color: black;
@@ -412,20 +325,8 @@ hover.icon{background: #720e9e;}
 	box-shadow: 8px 8px black;
 }
 
-.home > h1 {
+.section > h1 {
 	color: white;
-}
-
-@keyframes change {
-	0%{
-		background-position: 0 50%;
-	}
-	50%{
-		background-position: 100 50%;
-	}
-	100%{
-		background-position: 0 50%;
-	}
 }
 
 @media screen and (max-width: 880px) {
@@ -437,11 +338,11 @@ hover.icon{background: #720e9e;}
 		width: calc(100% - 200px);
 	}
 
-	.home p {
+	.section p {
 		font-size: 17px;
 	}
 
-	.home {
+	.section {
 		padding: 0px 15px 15px;
 	}
 }

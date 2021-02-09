@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -20,7 +21,7 @@
 <body>
     <header>
         <div class="top-menu">
-            <img class="img-menu" src="img/foto3.jpeg" alt="">
+            <img class="img-menu" src="img/foto3.jpeg" alt="foto de perfil">
             <p class="name-menu">Gabriel Dantas</p>
         </div>
         <nav class="header-nav">
@@ -34,7 +35,7 @@
     </header>
 
     <div class="container">
-        <div class="home show resumo">
+        <div class="section show resumo">
             <p class="home-bem-vindo info">&lt;h1&gt;Olá, Seja bem-vindo(a)&lt;/h1&gt; </p>
             <p class="info1 info home-apresentacao">Sou Gabriel Dantas, tenho 19 anos e sou estudante de Análise e
                 Desenvolvimento de Sistemas pela Universidade São Judas.</p>
@@ -45,7 +46,7 @@
             <p class="info home-footer">*Site feito por mim e sem responsividade completa</p>
         </div>
 
-        <div class="home portifolio">
+        <div class="section portifolio">
             <div class="content owl-carousel owl-theme">
                 <div class="card item">
                     <div class="top-card">
@@ -95,19 +96,19 @@
                     <a href="https://github.com/GabrielDantas-dll/Pagina-de-login" target="blank">
                         <div class="bottom-card">
                             <p class="bottom-text">Clique aqui para ir ao repositório</p>
-                        </div><!--Fim do bottom card-->
+                        </div><!--Fim do bottom-->
                     </a><!--Fim do link card-->
                 </div> <!--Fim do card-->
             </div> <!--Fim da carousel-->
         </div> <!-- Fim da portfolio-->
 
-        <div class="home escolaridade">
+        <div class="section escolaridade">
             <div class="content-escolaridade">
-                <div class="marista">
-                    <img src="/img/mbranco.jfif" class="foto-marista" alt="">
-                    <div class="conteudo-marista">
-                        <p class="ano-marista">(2007-2018)</p>
-                        <p class="p-marista">Terminei o Ensino Médio no Marista no ano de 2018 e digo que tive uma
+                <div class="instituicao">
+                    <img src="/img/mbranco.jfif" class="foto-instituicao" alt="logo marista">
+                    <div class="conteudo-instituicao">
+                        <p class="ano-instituicao">(2007-2018)</p>
+                        <p class="p-instituicao">Terminei o Ensino Médio no Marista no ano de 2018 e digo que tive uma
                             excelente base para a vida:
                         <ul>
                             <br>
@@ -123,15 +124,15 @@
                         </ul>
                     </div>
                 </div>
-                <div class="sjudas">
-                    <img src="/img/logo-sao-judas.png" class="foto-marista" alt="">
-                    <div class="conteudo-marista">
-                        <p class="ano-marista">(2020 - )</p>
-                        <p class="p-marista">Iniciei os estudos na São Judas no ano de 2020 no curso de análise e
+                <div class="instituicao">
+                    <img src="/img/logo-sao-judas.png" class="foto-instituicao" alt="foto são judas">
+                    <div class="conteudo-instituicao">
+                        <p class="ano-instituicao">(2020 - )</p>
+                        <p class="p-instituicao">Iniciei os estudos na São Judas no ano de 2020 no curso de análise e
                             desenvolvimento de sistemas. No primeiro semestre tive Modelagem de software (UML), POO  (Java), Banco de dados (MySQL) e git. No segundo semestre inicei com Angular 9, Android, bootstrap e Firebase api. Também no segundo semestre desenvolvi o projeto Schedule, um gerenciador de tarefas integrando web e aplicativo android que foi exposto na Expo São Judas.
                         </p>
                         <br>
-                        <p class="p-marista"> Minhas expectativas para meu futuro na Universidade é entrar em contato com o maior número de tecnologias e pessoas possível, pois acho que irá influenciar minha vida profissional.
+                        <p class="p-instituicao"> Minhas expectativas para meu futuro na Universidade é entrar em contato com o maior número de tecnologias e pessoas possível, pois acho que irá influenciar minha vida profissional.
                         </p>
 
                     </div>
@@ -139,17 +140,17 @@
             </div>
         </div>
 
-        <div class="home contato">
+        <div class="section contato">
 
             <h1 class=" h1-contato">Converse Comigo!</h1>
             <div class="wrapper">
                 <div class="container-contato">
                     <a class="span-wpp" href="https://www.linkedin.com/in/gabriel-dantas-874349160/" target="blank">
                         <div class="button">
-                            <div class="icon">
+                            <div class="icon linkedin">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
-                            <span>Ir para o Linkedin</span>
+                            <span class="span-linkedin">Ir para o Linkedin</span>
                         </div>
                     </a>
                 </div>
@@ -157,10 +158,10 @@
                 <div class="container-contato">
                     <a class="span-wpp" href="https://github.com/GabrielDantas-dll" target="blank">
                         <div class="button">
-                            <div class="icon">
+                            <div class="icon github">
                                 <i class="fab fa-github"></i>
                             </div>
-                            <span>Ir para o GitHub</span>
+                            <span class="span-github">Ir para o GitHub</span>
                         </div>
                     </a>
                 </div>
@@ -168,10 +169,10 @@
                 <div class="container-contato">
                     <a class="span-wpp" href="https://wa.me/5511995474478" target="blank">
                         <div class="button">
-                            <div class="icon">
+                            <div class="icon whatsapp">
                                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
                             </div>
-                            <span>(11) 995474478</span>
+                            <span class="span-whatsapp">(11) 995474478</span>
                         </div>
                     </a>
                 </div>
@@ -179,10 +180,10 @@
                 <div class="container-contato">
                     <a class="span-wpp" href="gabrieldol@yahoo.com.br" target="blank">
                         <div class="button">
-                            <div class="icon">
+                            <div class="icon yahoo">
                                 <i class="fa fa-yahoo" aria-hidden="true"></i>
                             </div>
-                            <span>gabrieldol@yahoo.com.br</span>
+                            <span class="span-yahoo">gabrieldol@yahoo.com.br</span>
                         </div>
                     </a>
                 </div>
